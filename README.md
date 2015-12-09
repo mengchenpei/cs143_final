@@ -3,9 +3,13 @@
 This is project code for CS143, which realizes network simulation.
 
 Element.py includes definition for host, packet, link, router, flow.
+
 Event.py defines each event, which works like callback to call the reactor run specific function.
+
 Engine.py is a priority queue which schedules each event one by one during simulation process.
+
 Parse.py will read in the network structure(testcase in txt file) then create network element based on the input.
+
 Record.py works like logger, which records important network parameters(flow rate, packet loss,etc) while simulation.
 
 To begin the simulation, Run testcase.py 
